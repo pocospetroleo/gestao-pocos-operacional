@@ -7,7 +7,7 @@ function _0x24a6(_0x2ea45c,_0x43d5dc){_0x2ea45c=_0x2ea45c-0x121;const _0x62dcce=
  api.documento=function(){
   const html=original.apply(this,arguments);
   if(typeof html!=='string')return html;
-  const logo='<img src="https://raw.githubusercontent.com/pocospetroleo/gestao-pocos-operacional/main/emblema-gp-original.png" alt="Emblema Gestão de Poços" width="52" height="52" style="display:block;width:52px;height:52px;max-width:52px;max-height:52px;object-fit:contain;margin:0 auto">';
+  const logo='<img src="https://raw.githubusercontent.com/pocospetroleo/gestao-pocos-operacional/main/emblema-gp-assinatura-L.png" alt="Emblema Gestão de Poços" width="52" height="52" style="display:block;width:52px;height:52px;max-width:52px;max-height:52px;object-fit:contain;margin:0 auto">';
   const style='<style id="gp-logo-print">table.gd>thead>tr:first-child>td:first-child{width:74px!important;min-width:74px!important;max-width:74px!important;padding:3px!important;text-align:center!important;vertical-align:middle!important}table.gd>thead>tr:first-child>td:first-child img{width:52px!important;height:52px!important;max-width:52px!important;max-height:52px!important;object-fit:contain!important}@media print{table.gd>thead>tr:first-child>td:first-child img{width:52px!important;height:52px!important}}</style>';
   const output=html.replace(/(<table\b[^>]*class=["'][^"']*gd[^"']*["'][^>]*>\s*<thead>\s*<tr>\s*<td\b[^>]*>)[\s\S]*?(<\/td>)/i,(_m,a,b)=>a+logo+b);
   return output.replace('</head>',style+'</head>');
