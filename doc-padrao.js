@@ -8,6 +8,6 @@ function _0x24a6(_0x2ea45c,_0x43d5dc){_0x2ea45c=_0x2ea45c-0x121;const _0x62dcce=
     const html=original.apply(this,arguments);
     if(typeof html!=='string')return html;
     const logo='<img src="https://raw.githubusercontent.com/pocospetroleo/gestao-pocos-operacional/main/emblema-gp-original.png" alt="Emblema GP" style="display:block;width:100%;max-width:105px;max-height:105px;height:auto;margin:auto;object-fit:contain">';
-    return html.replace(/(<table\\b[^>]*>\\s*<thead>\\s*<tr>\\s*<td\\b[^>]*>)[\\s\\S]*?(<\\/td>)/i,(_m,a,b)=>a+logo+b);
+    return html.replace(/(<table\b[^>]*>\s*<thead>\s*<tr>\s*<td\b[^>]*>)[\s\S]*?(<\/td>)/i,(_m,a,b)=>a+logo+b);
   };
 })();
