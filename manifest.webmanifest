@@ -1,0 +1,17 @@
+{
+  "name": "Gestão de Poços",
+  "short_name": "Gestão de Poços",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#103e35",
+  "icons": [
+    {
+      "src": "./emblema-gp-assinatura-L.png?v=20261105-3",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
