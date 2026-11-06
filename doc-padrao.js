@@ -7,7 +7,7 @@ function _0x24a6(_0x2ea45c,_0x43d5dc){_0x2ea45c=_0x2ea45c-0x121;const _0x62dcce=
     const html=original.apply(this,arguments);
     if(typeof html!=='string')return html;
     const logo='<img src="https://raw.githubusercontent.com/pocospetroleo/gestao-pocos-operacional/main/emblema-gp-original.png" alt="Gestão de Poços" style="display:block;width:100%;max-width:100px;height:auto;margin:auto;object-fit:contain">';
-    return html.replace(/(<table\\b[^>]*class=["'][^"']*gd[^"']*["'][^>]*>\\s*<thead>\\s*<tr>\\s*)(<td\\b[^>]*>)([\\s\\S]*?)(<\\/td>)/i,function(all,start,open,old,close){
+    return html.replace(/(<table\b[^>]*class=["'][^"']*gd[^"']*["'][^>]*>\s*<thead>\s*<tr>\s*)(<td\b[^>]*>)([\s\S]*?)(<\/td>)/i,function(all,start,open,old,close){
       if(!/GP|GESTÃO|POÇOS/i.test(old))return all;
       return start+open+logo+close;
     });
